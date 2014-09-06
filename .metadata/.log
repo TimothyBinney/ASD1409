@@ -1,0 +1,65 @@
+!SESSION 2014-09-06 17:58:17.038 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-06 17:58:29.798
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-06 17:58:30.354
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-06 17:58:30.354
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-06 17:58:30.354
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY com.aptana.scripting 4 0 2014-09-06 17:58:32.743
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  Failed to load bundle /Applications/Titanium Studio/plugins/com.appcelerator.titanium.core_3.1.2.1405005598/bundles/titanium_mobile.ruble
+!STACK 0
+Can't construct a java object for !ruby/object:Ruble::Bundle; exception=Invalid tag: !ruby/object:Ruble::Bundle
+ in "<reader>", line 1, column 5:
+    --- !ruby/object:Ruble::Bundle
+        ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:325)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:181)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:140)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:126)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:296)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:290)
+	at com.aptana.scripting.model.BundleCacher.load(BundleCacher.java:328)
+	at com.aptana.scripting.model.BundleCacher.load(BundleCacher.java:286)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.yaml.snakeyaml.error.YAMLException: Invalid tag: !ruby/object:Ruble::Bundle
+	at org.yaml.snakeyaml.nodes.Tag.getClassName(Tag.java:108)
+	at org.yaml.snakeyaml.constructor.Constructor.getClassForNode(Constructor.java:620)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.getConstructor(Constructor.java:313)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:323)
+	... 9 more
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-06 17:58:41.442
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+!SESSION 2014-09-06 18:05:21.814 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/tjbinney/Desktop/ASD1409 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-06 18:05:23.257
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-06 18:05:23.353
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-06 18:05:23.353
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-06 18:05:23.353
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-06 18:05:26.316
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
