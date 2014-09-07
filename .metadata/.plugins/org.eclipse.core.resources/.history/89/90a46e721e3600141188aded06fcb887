@@ -1,0 +1,28 @@
+var mainWin = Ti.UI.createWindow({
+	backgroundColor: "black",
+	title: "Pet Store"
+});
+
+var mainNav = Ti.UI.iOS.createNavigationWindow({
+	window: mainWin
+});
+
+var table = Ti.UI.createTableView({
+	backgroundColor: "White",
+	});
+	
+var sectionOne = Ti.UI.createTableViewSection({
+	headerTitle: "Two Stroke Engines"
+});
+
+var sectionOne = Ti.UI.createTableViewSection({
+	headerTitle: "Four Stroke Engines"
+});
+
+
+var loadJs = require ("data");
+
+
+bikeOne.add(bikeOneLabel);
+mainWin.add(bikeOne);
+mainNav.open();
