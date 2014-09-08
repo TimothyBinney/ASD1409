@@ -1,22 +1,22 @@
 dependencies: \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNodeProxy.m \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNodeProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiBase.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiThreading.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiPublicAPI.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiEvaluator.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/KrollContext.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/headers/TiCore/TiCore.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNodeProxy.m \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNodeProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiBase.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiThreading.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiPublicAPI.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiEvaluator.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/KrollContext.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/headers/TiCore/TiCore.h \
   headers/TiCore/Ti.h headers/TiCore/TiBase.h \
   headers/TiCore/TiContextRef.h headers/TiCore/TiObjectRef.h \
   headers/TiCore/TiValueRef.h headers/TiCore/WebKitAvailability.h \
   headers/TiCore/TiStringRef.h headers/TiCore/TiStringRefCF.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/headers/TiCore/TiContextRefPrivate.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/KrollCallback.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/KrollObject.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiBindingRunLoop.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/GDataXMLNode.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/headers/TiCore/TiContextRefPrivate.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/KrollCallback.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/KrollObject.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/GDataXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xmlexports.h \
@@ -40,26 +40,26 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/SAX2.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xpath.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libxml2/libxml/xpathInternals.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMDocumentProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMElementProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMTextNodeProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TIDOMCharacterDataProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNamedNodeMapProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNodeListProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMAttrProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMCDATANodeProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMCommentProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TIDOMDocumentTypeProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMDocFragProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMPIProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMEntityProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMEntityRefProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNotationProxy.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiUtils.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDimension.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiColor.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/WebFont.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiFile.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiBuffer.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiBlob.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMValidator.h
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMDocumentProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMElementProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMTextNodeProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TIDOMCharacterDataProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNamedNodeMapProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNodeListProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMAttrProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMCDATANodeProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMCommentProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TIDOMDocumentTypeProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMDocFragProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMPIProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMEntityProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMEntityRefProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMNotationProxy.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiUtils.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDimension.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiColor.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/WebFont.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiFile.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiBuffer.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiBlob.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/TiDOMValidator.h

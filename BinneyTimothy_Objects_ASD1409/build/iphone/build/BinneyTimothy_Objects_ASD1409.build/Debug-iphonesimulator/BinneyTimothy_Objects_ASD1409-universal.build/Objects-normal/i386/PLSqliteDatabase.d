@@ -1,9 +1,9 @@
 dependencies: \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.m \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLResultSet.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLPreparedStatement.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLDatabase.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLSqlitePreparedStatement.h \
-  /Users/tjbinney/Desktop/ASD1409/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.h
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.m \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLResultSet.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLPreparedStatement.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLDatabase.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLSqlitePreparedStatement.h \
+  /Users/chadgibson/Documents/Full\ Sail\ University/Courses/MDV/ASD/_roster/1409-O/Binney\ Time/BinneyTimothy_Objects_ASD1409/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.h
