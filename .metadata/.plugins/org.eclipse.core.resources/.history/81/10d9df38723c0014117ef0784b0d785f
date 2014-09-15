@@ -1,0 +1,32 @@
+// Main Code
+
+var mainWin = Ti.UI.createWindow({
+	backgroundColor: "white",
+	fullscreen: true,
+});
+
+var mainNav = Ti.UI.iOS.createNavigationWindow({
+	window: mainWin
+});
+
+var title = Ti.UI.createView({
+	height: 40,
+	backgroundColor: "black",
+	top: 0,
+});
+
+var titleLabel = Ti.UI.createLabel({
+	text: "Food Reddit!",
+	color: "red",
+});
+
+var scroller = Ti.UI.createScrollView({
+	height: Ti.Platform.displayCaps.platformHeight - title,
+	layout: "vertical",
+});
+
+var loadJS = require("mainCode");
+
+title.add(titleLabel);
+mainNav.add(title);
+mainNav.open();

@@ -1,7 +1,9 @@
 =run
+BinneyTimothy_ASD1409_RemoteData\:launchMode=run
+BinneyTimothy_ASD1409_RemoteData\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.iPhone Retina (4 inch 64-bit)
 BinneyTimothy_Objects_ASD1409\:launchMode=run
-BinneyTimothy_Objects_ASD1409\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.iPhone Retina (4 inch 64-bit)
-LAST_LAUNCH_TIMESTAMP=1410044294474
+BinneyTimothy_Objects_ASD1409\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.iPhone Retina (4 inch)
+LAST_LAUNCH_TIMESTAMP=1410739898556
 eclipse.preferences.version=1
 preference.show.console.onError=true
 preference.studio.perspective.version=103

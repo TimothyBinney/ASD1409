@@ -83,3 +83,1946 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/tjbinney/De
 
 !ENTRY org.eclipse.osgi 2 1 2014-09-06 18:58:13.817
 !MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-09-06 20:41:40.759
+!MESSAGE An internal error occurred during: "Update iOS info".
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.getUserManager(NodeTitaniumCLI.java:393)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.run(NodeTitaniumCLI.java:192)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.run(NodeTitaniumCLI.java:326)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.runCommand(NodeTitaniumCLI.java:148)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.runCommandWithNoLogin(NodeTitaniumCLI.java:351)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.info(NodeTitaniumCLI.java:634)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.loadTiInfo(IOSSDKLocator.java:494)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.updateTiInfo(IOSSDKLocator.java:142)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.access$0(IOSSDKLocator.java:140)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator$1.run(IOSSDKLocator.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-09-06 20:41:58.111 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-06 20:42:05.166
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-06 20:42:06.883
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-06 20:42:06.883
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-06 20:42:06.883
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-06 20:42:16.629
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+!SESSION 2014-09-13 15:43:44.915 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-13 15:44:00.843
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-13 15:44:03.263
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 15:44:03.263
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 15:44:03.263
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 15:44:18.015
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:44:24.980
+!MESSAGE sudo: a password is required
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:44:30.745
+!MESSAGE 
+
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:44:33.735
+!MESSAGE 
+
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:44:37.358
+!MESSAGE 
+
+
+!ENTRY unknown 8 1 2014-09-13 15:44:37.360
+!MESSAGE 
+
+!ENTRY com.appcelerator.titanium.update.core 4 4 2014-09-13 15:44:37.496
+!MESSAGE Error encountered during update
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:37.496
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:37.496
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:37.497
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:44:47.056
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:47.057
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:44:47.069
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:47.070
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:44:49.996
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:243)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:49.996
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:44:49.998
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:49.998
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:44:50.004
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:50.005
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:44:50.023
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:50.023
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:44:50.025
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:250)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:44:50.025
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:45:54.284
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.core.build.UnifiedBuilder.indexProjectBuildPaths(UnifiedBuilder.java:356)
+	at com.aptana.core.build.UnifiedBuilder.fullBuild(UnifiedBuilder.java:328)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:45:54.284
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:45:54.286
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.core.build.UnifiedBuilder.indexProjectBuildPaths(UnifiedBuilder.java:356)
+	at com.aptana.core.build.UnifiedBuilder.fullBuild(UnifiedBuilder.java:328)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:45:54.286
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:45:54.366
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.core.build.UnifiedBuilder.buildFile(UnifiedBuilder.java:614)
+	at com.aptana.core.build.UnifiedBuilder.doBuildFiles(UnifiedBuilder.java:525)
+	at com.aptana.core.build.UnifiedBuilder.buildFiles(UnifiedBuilder.java:497)
+	at com.aptana.core.build.UnifiedBuilder.fullBuild(UnifiedBuilder.java:343)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:45:54.366
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:45:54.367
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.core.build.UnifiedBuilder.buildFile(UnifiedBuilder.java:614)
+	at com.aptana.core.build.UnifiedBuilder.doBuildFiles(UnifiedBuilder.java:525)
+	at com.aptana.core.build.UnifiedBuilder.buildFiles(UnifiedBuilder.java:497)
+	at com.aptana.core.build.UnifiedBuilder.fullBuild(UnifiedBuilder.java:343)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:45:54.368
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:45:54.738
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.core.build.UnifiedBuilder.buildFile(UnifiedBuilder.java:614)
+	at com.aptana.core.build.UnifiedBuilder.doBuildFiles(UnifiedBuilder.java:525)
+	at com.aptana.core.build.UnifiedBuilder.buildFiles(UnifiedBuilder.java:497)
+	at com.aptana.core.build.UnifiedBuilder.fullBuild(UnifiedBuilder.java:343)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:45:54.738
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:45:54.740
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.core.build.UnifiedBuilder.buildFile(UnifiedBuilder.java:614)
+	at com.aptana.core.build.UnifiedBuilder.doBuildFiles(UnifiedBuilder.java:525)
+	at com.aptana.core.build.UnifiedBuilder.buildFiles(UnifiedBuilder.java:497)
+	at com.aptana.core.build.UnifiedBuilder.fullBuild(UnifiedBuilder.java:343)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:45:54.740
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:45:54.774
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.core.build.UnifiedBuilder.indexProjectBuildPaths(UnifiedBuilder.java:356)
+	at com.aptana.core.build.UnifiedBuilder.fullBuild(UnifiedBuilder.java:328)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:45:54.774
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:45:54.775
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.core.build.UnifiedBuilder.indexProjectBuildPaths(UnifiedBuilder.java:356)
+	at com.aptana.core.build.UnifiedBuilder.fullBuild(UnifiedBuilder.java:328)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:45:54.775
+!MESSAGE NPM is not installed.
+!SESSION 2014-09-13 15:47:59.449 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-13 15:48:08.208
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-13 15:48:08.303
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 15:48:08.303
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 15:48:08.303
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 15:48:09.768
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:48:14.024
+!MESSAGE sudo: a password is required
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:48:17.295
+!MESSAGE 
+
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:48:29.553
+!MESSAGE 
+
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:48:31.672
+!MESSAGE 
+
+
+!ENTRY unknown 8 1 2014-09-13 15:48:31.673
+!MESSAGE 
+
+!ENTRY com.appcelerator.titanium.update.core 4 4 2014-09-13 15:48:31.681
+!MESSAGE Error encountered during update
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:31.681
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:31.681
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:31.681
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.454
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:243)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.455
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.457
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.457
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.459
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.459
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.460
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.460
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.461
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:250)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.461
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.463
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:243)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.463
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.464
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.464
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.465
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.465
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.466
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.467
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:48:45.467
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:250)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:48:45.468
+!MESSAGE NPM is not installed.
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-09-13 15:51:15.569
+!MESSAGE An internal error occurred during: "Update iOS info".
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.getNodePackageManager(NodeTitaniumCLI.java:141)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.getCLIPath(NodeTitaniumCLI.java:105)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.isInstalled(NodeTitaniumCLI.java:573)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.run(NodeTitaniumCLI.java:165)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.run(NodeTitaniumCLI.java:326)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.runCommand(NodeTitaniumCLI.java:148)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.runCommandWithNoLogin(NodeTitaniumCLI.java:351)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.info(NodeTitaniumCLI.java:634)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.loadTiInfo(IOSSDKLocator.java:494)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.updateTiInfo(IOSSDKLocator.java:142)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.access$0(IOSSDKLocator.java:140)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator$1.run(IOSSDKLocator.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-09-13 15:51:32.171 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-13 15:51:41.780
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-13 15:51:41.871
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 15:51:41.871
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 15:51:41.871
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 15:51:43.465
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:51:49.417
+!MESSAGE sudo: a password is required
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:52:26.859
+!MESSAGE sudo: a password is required
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:52:41.350
+!MESSAGE 
+
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:52:45.676
+!MESSAGE 
+
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.510
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:243)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.510
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.513
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.513
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.515
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.515
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.516
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.516
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.517
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:250)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.517
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.519
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:243)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.520
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.520
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.521
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.524
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.524
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.525
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.525
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:52:47.526
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:250)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:47.526
+!MESSAGE NPM is not installed.
+
+!ENTRY com.aptana.core 4 1 2014-09-13 15:52:51.088
+!MESSAGE 
+
+
+!ENTRY unknown 8 1 2014-09-13 15:52:51.089
+!MESSAGE 
+
+!ENTRY com.appcelerator.titanium.update.core 4 4 2014-09-13 15:52:51.096
+!MESSAGE Error encountered during update
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:51.097
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:51.097
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:52:51.097
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:54:32.561
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:54:32.562
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:54:32.563
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:54:32.563
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:54:34.539
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:54:34.539
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 15:54:34.540
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 15:54:34.541
+!MESSAGE NPM is not installed.
+!SESSION 2014-09-13 16:04:31.349 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-13 16:04:38.076
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-13 16:04:38.173
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 16:04:38.173
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 16:04:38.173
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:04:40.372
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:04:40.373
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:04:40.379
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:04:40.379
+!MESSAGE NPM is not installed.
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 16:04:40.793
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:04:41.873
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:04:41.873
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:04:41.874
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:04:41.874
+!MESSAGE NPM is not installed.
+
+!ENTRY com.aptana.core 4 1 2014-09-13 16:04:44.819
+!MESSAGE sudo: a password is required
+
+!ENTRY com.aptana.core 4 1 2014-09-13 16:04:47.986
+!MESSAGE 
+
+
+!ENTRY com.aptana.core 4 1 2014-09-13 16:04:51.731
+!MESSAGE 
+
+
+!ENTRY com.aptana.core 4 1 2014-09-13 16:04:54.188
+!MESSAGE sudo: a password is required
+
+!ENTRY unknown 8 1 2014-09-13 16:04:54.190
+!MESSAGE 
+
+!ENTRY com.appcelerator.titanium.update.core 4 4 2014-09-13 16:04:54.197
+!MESSAGE Error encountered during update
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:04:54.197
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:04:54.197
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:04:54.197
+!MESSAGE NPM is not installed.
+!SESSION 2014-09-13 16:11:52.105 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-13 16:12:03.582
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-13 16:12:04.280
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 16:12:04.280
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 16:12:04.280
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:12:14.315
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:12:14.316
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:12:14.344
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:12:14.344
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:12:16.174
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:12:16.174
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:12:16.175
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:12:16.175
+!MESSAGE NPM is not installed.
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 16:12:16.324
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+
+!ENTRY com.aptana.core 4 1 2014-09-13 16:12:21.034
+!MESSAGE sudo: a password is required
+
+!ENTRY com.aptana.core 4 1 2014-09-13 16:12:24.450
+!MESSAGE 
+
+
+!ENTRY com.aptana.core 4 1 2014-09-13 16:12:26.635
+!MESSAGE 
+
+
+!ENTRY com.aptana.core 4 1 2014-09-13 16:12:33.866
+!MESSAGE sudo: a password is required
+
+!ENTRY unknown 8 1 2014-09-13 16:12:33.867
+!MESSAGE 
+
+!ENTRY com.appcelerator.titanium.update.core 4 4 2014-09-13 16:12:33.873
+!MESSAGE Error encountered during update
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:12:33.873
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:12:33.874
+!MESSAGE NPM is not installed.
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:12:33.874
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:12:46.832
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:12:46.833
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:12:46.835
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.js.core.index.JSIndexQueryHelper.getIndices(JSIndexQueryHelper.java:120)
+	at com.aptana.js.core.index.JSIndexQueryHelper.<init>(JSIndexQueryHelper.java:95)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:178)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:104)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.initialReconcile(CommonReconcilingStrategy.java:149)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.initialProcess(CommonReconciler.java:188)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:12:46.836
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:01.983
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:243)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:01.983
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:01.984
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:01.984
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:01.994
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:01.994
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:01.995
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:01.995
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:02.071
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:250)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:02.071
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:02.080
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:243)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:02.080
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:02.080
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:02.081
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:02.082
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.getProjectMetadataBuildPath(ContentAssistMetadataUtils.java:147)
+	at com.appcelerator.titanium.core.internal.mobile.SDKBuildPathContributor.getBuildPathEntries(SDKBuildPathContributor.java:78)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:302)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:02.082
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:02.083
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:313)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:371)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:286)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:245)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:02.083
+!MESSAGE NPM is not installed.
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-09-13 16:14:02.084
+!MESSAGE (Build 3.3.0.201407100905) [ERROR]  NPM is not installed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: NPM is not installed.
+	at com.aptana.js.internal.core.node.NodePackageManager.checkedNPMPath(NodePackageManager.java:153)
+	at com.aptana.js.internal.core.node.NodePackageManager.runInBackground(NodePackageManager.java:789)
+	at com.aptana.js.internal.core.node.NodePackageManager.getModulesPath(NodePackageManager.java:446)
+	at com.appcelerator.titanium.alloy.core.AlloyCorePlugin.getAlloyModulesPath(AlloyCorePlugin.java:84)
+	at com.appcelerator.titanium.alloy.core.AlloyUtil.getAlloyJscaPath(AlloyUtil.java:141)
+	at com.appcelerator.titanium.alloy.core.index.AlloyBuildPathContributor.getBuildPathEntries(AlloyBuildPathContributor.java:37)
+	at com.aptana.buildpath.core.BuildPathManager.getDynamicBuildPaths(BuildPathManager.java:335)
+	at com.aptana.buildpath.core.BuildPathManager.getBuildPaths(BuildPathManager.java:225)
+	at com.aptana.buildpath.core.BuildPathManager.hasBuildPath(BuildPathManager.java:354)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.addIfNecessary(ContentAssistMetadataUtils.java:283)
+	at com.appcelerator.titanium.core.util.ContentAssistMetadataUtils.importContentAssistMetadata(ContentAssistMetadataUtils.java:250)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.updateProject(TiMobileMetadataLoader.java:146)
+	at com.appcelerator.titanium.core.mobile.TiMobileMetadataLoader.run(TiMobileMetadataLoader.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.js.core 4 0 2014-09-13 16:14:02.084
+!MESSAGE NPM is not installed.
+!SESSION 2014-09-13 21:32:07.300 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-13 21:32:15.023
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-13 21:32:17.389
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 21:32:17.389
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-13 21:32:17.390
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 21:32:27.375
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-13 21:33:32.105
+!MESSAGE NLS missing message: MobileUsageUtil_mobile_event_error in: com.appcelerator.titanium.usage.messages
+!SESSION 2014-09-14 19:58:35.499 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-14 19:58:43.863
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-14 19:58:46.222
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-14 19:58:46.222
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-14 19:58:46.223
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-14 19:59:06.863
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+!SESSION 2014-09-14 20:05:32.845 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/tjbinney/Desktop/ASD1409 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-14 20:05:34.365
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-14 20:05:34.460
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-14 20:05:34.461
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-14 20:05:34.461
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-14 20:05:36.830
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+!SESSION 2014-09-14 20:09:39.545 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/tjbinney/Desktop/ASD1409 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-14 20:09:42.469
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-14 20:09:42.748
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-14 20:09:42.748
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-14 20:09:42.748
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-14 20:09:46.304
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-09-14 20:10:52.460
+!MESSAGE An internal error occurred during: "Update iOS info".
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.getUserManager(NodeTitaniumCLI.java:393)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.run(NodeTitaniumCLI.java:192)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.run(NodeTitaniumCLI.java:326)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.runCommand(NodeTitaniumCLI.java:148)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.runCommandWithNoLogin(NodeTitaniumCLI.java:351)
+	at com.appcelerator.titanium.core.internal.cli.NodeTitaniumCLI.info(NodeTitaniumCLI.java:634)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.loadTiInfo(IOSSDKLocator.java:494)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.updateTiInfo(IOSSDKLocator.java:142)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.access$0(IOSSDKLocator.java:140)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator$1.run(IOSSDKLocator.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-09-14 20:11:33.661 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tjbinney/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/tjbinney/Desktop/ASD1409 -keyring /Users/tjbinney/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-14 20:11:35.253
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-09-14 20:11:35.351
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-14 20:11:35.351
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-09-14 20:11:35.351
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2014-09-14 20:11:37.714
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages

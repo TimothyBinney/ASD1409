@@ -1,0 +1,25 @@
+// Main Code
+
+var mainWin = Ti.UI.createWindow({
+	backgroundColor: "white",
+	fullscreen: true,
+});
+
+var mainNav = Ti.UI.createNavigationWindow({
+	backgroundColor: "white",
+	fullscreen: true,
+});
+
+var title = Ti.UI.createView({
+	height: 40,
+	backgroundColor: "black",
+	top: 0,
+});
+
+var titleLabel = Ti.UI.createLabel({
+	text: "Food Reddit!",
+	color: "red",
+});
+
+title.add(titleLabel);
+win.a
