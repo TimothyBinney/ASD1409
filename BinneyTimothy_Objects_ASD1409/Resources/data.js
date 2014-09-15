@@ -88,7 +88,7 @@ for (var i=0, j=arrayOne.length; i<j; i++){
 		color: "black",
 		});
 		sectionOne.add(rowLiteral);
-		rowLiteral.addEventListener("click", arrayOne[i].Affordable);
+		rowLiteral.addEventListener("click", arrayOne[i].Affordable); //redundant event lisenter. can be added to tableView instead; use event propagation.
 		}
 		
 // Objects in Dot Notation
@@ -177,7 +177,7 @@ for (var i=0, j=arrayTwo.length; i<j; i++){
 		color: "black",
 		});
 		sectionTwo.add(rowDot);
-		rowDot.addEventListener("click", arrayTwo[i].Affordable);
+		rowDot.addEventListener("click", arrayTwo[i].Affordable); //redundant event lisenter. can be added to tableView instead; use event propagation.
 		}
 
 var tableSectionInfo = [sectionOne,sectionTwo];
