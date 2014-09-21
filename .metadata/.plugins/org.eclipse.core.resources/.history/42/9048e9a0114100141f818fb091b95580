@@ -1,0 +1,82 @@
+var window1 = Ti.UI.createWindow({
+	backgroundColor: "white",
+	title: "Friends",
+	layout: "vertical",
+});
+
+var window2 = Ti.UI.createWindow({
+	backgroundColor: "white",
+	title: "Add Friend",
+	layout: "vertical",
+});
+
+var code = require("code");
+//code.read();
+
+
+
+var tabs = Ti.UI.createTabGroup();
+
+var tab1 = Ti.UI.createTab({
+	icon: "KS_nav_views.png",
+	title: "Friends",
+	window: window1
+});
+
+var tab2 = Ti.UI.createTab({
+	icon: "KS_nav_ui.png",
+	title: "Add Friend",
+	window: window2,
+});
+
+var name = Ti.UI.createLabel({
+	text: "Name",
+	top: 25,
+	left: 15,
+});
+
+var nameField = Ti.UI.createTextField({
+	left: 15,
+	top: name.top + name.height + 5,
+	height: 30,
+	borderSize: 1,
+});
+
+var food = Ti.UI.createLabel({
+	text: "Favorite Food",
+	top: nameField.top + nameField.height + 10,
+	left: 15,
+});
+
+var foodField = Ti.UI.createTextField({
+	left: 15,
+	top: food.top + food.height + 5,
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tabs.addTab(tab1);
+tabs.addTab(tab2);
+tabs.open();
+
+
+window1.add();
+window2.add(name);
+window2.add(nameField);
+window2.add(food);
+window2.add(foodField);

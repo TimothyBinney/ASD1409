@@ -1,0 +1,62 @@
+//Install
+var app = require("app");
+Ti.Database.install("database/ASD1409.sqlite", "data");
+
+
+//CREATE
+var create = function(name, food){
+	var db = Ti.Database.open("data");
+	db.execute('INSERT INTO data (name, food) VALUES(?,?)', name, food);
+	var rowID = db.lastInsertRowId;
+	tblData = [];
+	db.close();
+	tabs.setActiveTab(tab1);
+};
+exports.create = create;
+
+
+//READ
+var tblData = [];
+var read = function(){
+	var db = Ti.Database.open('data');
+	var dbRows = db.execute('SELECT id, name, food FROM data');
+	while (dbRows.isValidRow()) {
+		tblData.push({
+			id: dbRows.fieldByName('id'),
+			name: dbRows.fieldByName('name'),
+			food: dbRows.fieldByName('food'),
+		});
+		dbRows.next();
+	} 
+	dbRows.close();
+	db.close();
+	// add tblData to my table when ready
+};
+exports.read = read;
+//UPDATE
+var update = function(index, location){
+	var db = Ti.Database.open("data");
+	db.execute('UPDATE data SET name=?, food=? WHERE id=?', nameField, foodField);
+	db.close();
+	tblData = [];
+	tabs.setActiveTab(tab1);
+	addButton.id = null;
+	addButton.edit = false;
+	addButton.title = "Add Friend",
+	nameField.value = "";
+	foodField.value = "";
+	window2.title = "Add Friends";
+	tab2.title = "Add";
+};
+exports.update = update;
+
+
+//DELETE
+var del = function(id){
+	var db = Ti.Database.open("data");
+	db.execute('DELETE FROM data WHERE id=?', id);
+	db.close();
+	tblData = [];
+};
+
+exports.del = del;

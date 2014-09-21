@@ -1,0 +1,25 @@
+//Install
+Ti.Database.install("Resources/ASD1409.sqlite", "data");
+
+
+//CREATE
+var create = function(name, food){
+	var db = Ti.Database.open("data");
+	db.execute('INSERT INTO ASD1409 (name, food) VALUES(?,?)', name, food);
+	var rowID = db.lastInsertRowID;
+	tblData = [];
+	tabs.setActiveTab(tab1);
+};
+
+
+
+//READ
+
+
+
+//UPDATE
+
+
+
+
+//DELETE

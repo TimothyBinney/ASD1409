@@ -1,0 +1,13 @@
+var window1 = Ti.UI.createWindow({
+	backgroundColor: "white",
+	title: "Friends",
+	layout: "vertical",
+});
+
+var window2 = Ti.UI.createWindow({
+	backgroundColor: "white",
+	title: "Add Friend",
+	layout: "vertical",
+});
+
+

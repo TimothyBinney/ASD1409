@@ -1,0 +1,30 @@
+var window1 = Ti.UI.createWindow({
+	backgroundColor: "white",
+	title: "Friends",
+	layout: "vertical",
+});
+
+var window2 = Ti.UI.createWindow({
+	backgroundColor: "white",
+	title: "Add Friend",
+	layout: "vertical",
+});
+
+var tabs = Ti.UI.createTabGroup();
+
+var tab1 = Ti.UI.createTab({
+	icon: "KS_nav_views.png",
+	title: "Friends",
+	window: window1
+});
+
+var tab2 = Ti.UI.createTab({
+	icon: "KS_nav_ui.png",
+	title: "Add Friend",
+	window: window2,
+});
+
+
+win1.add();
+win2.add();
+
