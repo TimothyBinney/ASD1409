@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;BinneyTimothy_ASD1409_SQlite/Resources/database&apos;" deleteContents="false" description="Delete resource &apos;BinneyTimothy_ASD1409_SQlite/Resources/database&apos;" element1="/BinneyTimothy_ASD1409_SQlite/Resources/database" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1411335012628"/>
+</session>

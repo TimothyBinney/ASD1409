@@ -1,5 +1,5 @@
 //Install/Require
-
+var app = require("app");
 
 Ti.Database.install("ASD1409.sqlite", "data");
 

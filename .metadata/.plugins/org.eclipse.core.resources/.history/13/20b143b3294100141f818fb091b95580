@@ -1,7 +1,6 @@
-//Install/Require
-
-
-Ti.Database.install("ASD1409.sqlite", "data");
+//Install
+var app = require("app");
+Ti.Database.install("database/ASD1409.sqlite", "data");
 
 
 //CREATE
@@ -10,7 +9,7 @@ var create = function(name, food){
 	db.execute('INSERT INTO data (name, food) VALUES(?,?)', name, food);
 	var rowID = db.lastInsertRowId;
 	tblData = [];
-	
+	db.close();
 	tabs.setActiveTab(tab1);
 };
 exports.create = create;
@@ -21,7 +20,7 @@ var tblData = [];
 var read = function(){
 	var db = Ti.Database.open('data');
 	var dbRows = db.execute('SELECT id, name, food FROM data');
-	while(dbRows.isValidRow()){
+	while (dbRows.isValidRow()) {
 		tblData.push({
 			id: dbRows.fieldByName('id'),
 			name: dbRows.fieldByName('name'),
