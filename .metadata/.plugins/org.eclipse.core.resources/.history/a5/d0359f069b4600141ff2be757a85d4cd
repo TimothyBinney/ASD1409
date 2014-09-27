@@ -23,7 +23,7 @@ var Read = function() {
 var Create = function(arg) {
     var db = Ti.Database.open('ASDweek4');
     arg.forEach(function(item) {
-        db.execute('INSERT INTO ASDweek4 (recipie) VALUES (?)', item.title, item.saved);
+        db.execute('INSERT INTO foodTitles (recipie) VALUES (?)', item.title, item.saved);
         var rowID = db.lastInsertRowId;
     });
     db.execute("COMMIT");
@@ -35,7 +35,7 @@ var mainInfo = [];
 
 var compile = function() {
     var db = Ti.Database.open("ASDweek4");
-    var dbRows = db.execute("SELECT name, recipie FROM ASDweek4");
+    var dbRows = db.execute("SELECT name, recipie FROM foodTitles");
     while (dbRows.isValidRow()) {
         mainInfo.push({
             title: dbRows.fieldByName("recipie"),
@@ -99,7 +99,7 @@ var getUI = function(data) {
             theDeleteButton.addEventListener("click", deleteSavedRecipie);
             label.addEventListener("click", saveRecipie);
             
-            db.execute('UPDATE ASDweek4 SET recipie? WHERE id=?', this.id);
+            db.execute('UPDATE foodTitles SET recipie? WHERE id=?', this.id);
             db.close();
     };
 
