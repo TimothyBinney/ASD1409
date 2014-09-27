@@ -1,0 +1,46 @@
+// Interface MainCode
+
+var tabGroup = Ti.UI.createTabGroup();
+
+var window = Ti.UI.createWindow({
+	title: "Foods on Reddit",
+	backgroundColor: "fff", 
+});
+
+var tab1 = Ti.UI.createTab({
+	icon: "KS_nav_ui.png",
+	title: "Foods",
+});
+
+var window2 = Ti.UI.createWindow ({
+	title: "Saved Recipies",
+	backgroundColor: "fff",
+});
+
+var tab2 = Ti.UI.createTab({
+	icon: "KS_nav_views.png",
+	title: "Saved Recipies",
+	window: window2,
+});
+
+var scrollView = Ti.UI.createScrollView({
+	height: Ti.Platform.displayCaps.platformHeight - 30,
+	layout: "vertical",
+	backgroundColor: "grey",
+});
+
+var scrollView2 = Ti.UI.createScrollView({
+	height: Ti.Platform.displayCaps.platformHeight - 30,
+	layout: "vertical",
+	backgroundColor: "grey",
+});
+
+window.add(scrollView);
+window2.add(scrollView2);
+
+var request = require('maincode');
+
+tabGroup.addTab(tab1);
+tabGroup.addTab(tab2);
+
+tabGroup.open();

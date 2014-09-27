@@ -1,0 +1,35 @@
+Ti.Database.install("Week4.sqlite", "ASDweek4");
+
+for(var i=0, j=list.article.length; i>j; i++){
+	var item = list.article[i].data;
+	var newItem = new Construct(item);
+};
+
+var db = Ti.Database.open("ASDweek4");
+var seeData = db.execute('SELECT * FROM ASDweek4');
+while(seeData.isValidRow()){
+	var dbData = JSON.parse(seeData.fieldByName('recipie'));
+	console.log(dbData);
+	seeData.next();
+};
+seeData.close();
+db.close();
+
+
+
+
+
+// Object Constructor
+
+var Construct = function(obj){
+	this.name = obj.author;
+	this.title = obj.title;
+	this.image = obj.url;
+	
+	var db = Ti.Database.open("Week4");
+	var rows = db.execute('INSERT INTO ASDweek4 (recipie) VALUES(?)', JSON.stringify(this));
+	db.close();
+	
+};
+
+exports.Info = Construct;

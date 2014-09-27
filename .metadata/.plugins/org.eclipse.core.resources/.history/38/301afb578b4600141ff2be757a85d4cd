@@ -1,0 +1,22 @@
+Ti.Database.install("Week4.sqlite", "ASDweek4");
+
+
+
+
+
+
+
+
+
+
+// Object Constructor
+
+var Construct = function(obj){
+	this.name = obj.author;
+	this.title = obj.title;
+	this.image = obj.url;
+	
+	var db = Ti.Database.open("Week4");
+	var rows = db.execute('INSERT INTO items ()')
+	
+};

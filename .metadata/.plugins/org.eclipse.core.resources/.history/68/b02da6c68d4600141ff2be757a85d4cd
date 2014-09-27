@@ -1,0 +1,25 @@
+// Code for HTTP Client Setup and Function Calls
+	
+var link = "htp://api.reddit.com/r/food";
+
+var responded = function(){
+	console.log("responded");
+	var web = JSON.parse(this.responseText);
+	var article = web.data.children;
+};	
+
+var respondFail = function(e){
+	alert(e.error);
+	console.log(e);
+};
+
+var getHttp = Ti.Network.createHTTPClient({
+	onload: responded,
+	onerror: respondFail,
+	timeout: 5000
+});
+
+getHttp.open("GET", link);
+getHttp.send();
+
+exports.list = responded;
